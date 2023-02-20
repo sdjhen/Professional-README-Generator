@@ -14,8 +14,8 @@ function generateMarkdown(data) {
   ## Liscense
   ${data.liscense}
 
-  ## Contributions
-  ${data.contributions}
+  ## Credits
+  ${data.credits}
 
   ## Tests
   ${data.tests}

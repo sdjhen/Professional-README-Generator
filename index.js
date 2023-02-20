@@ -21,7 +21,7 @@ const questions = [
   // Installation guide
   {
     type: 'input',
-    name: 'Installation Guide',
+    name: 'Installation',
     message: 'Do you have any installation instructions for your project?',
   },
   // Usage
@@ -37,10 +37,10 @@ const questions = [
     name: 'license',
     message: 'What is your project license type?',
   },
-  // Contributions
+  // Credits
   {
     type: 'input',
-    name: 'Contributions',
+    name: 'Credits',
     message: 'Hello! Please choose the name of your project?',
   },
   // Tests
@@ -70,7 +70,15 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile('README.md', data, (err) => {
+    if (err) {
+      console.error(err);
+    } else {
+      console.log('Success!');
+    }
+  });
+}
 
 // function to initialize program
 function init() {
