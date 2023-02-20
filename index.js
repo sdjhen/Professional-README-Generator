@@ -77,6 +77,7 @@ function init() {
   inquirer.prompt(questions).then((answers) => {
     // User feedback
     console.log(answers);
+    const markdown = generateMarkdown(answers);
   });
 }
 
