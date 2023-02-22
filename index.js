@@ -86,7 +86,7 @@ function init() {
     // User feedback
     console.log(answers);
     const markdown = generateMarkdown(answers);
-    writeToFile('README.md', markdown);
+    writeToFile('./sample/generated-README.md', markdown);
   });
 }
 
