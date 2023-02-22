@@ -9,7 +9,7 @@ const questions = [
   // Title
   {
     type: 'input',
-    name: 'name',
+    name: 'title',
     message: 'Hello! Please choose the name of your project?',
   },
   // Description
@@ -33,15 +33,15 @@ const questions = [
   // License
   {
     type: 'list',
-    choices: ['MIT', 'GPL', 'BSD', 'APACHE'],
-    name: 'license',
+    choices: ['MIT', 'GPL', 'BSD', 'APACHE', 'NONE'],
+    name: 'License',
     message: 'What is your project license type?',
   },
   // Credits
   {
     type: 'input',
     name: 'Credits',
-    message: 'Hello! Please choose the name of your project?',
+    message: 'Are there any other contributers to the project?',
   },
   // Tests
   {
@@ -71,7 +71,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile('README.md', data, (err) => {
+  fs.writeFile(fileName, data, (err) => {
     if (err) {
       console.error(err);
     } else {
@@ -86,6 +86,7 @@ function init() {
     // User feedback
     console.log(answers);
     const markdown = generateMarkdown(answers);
+    writeToFile('README.md', markdown);
   });
 }
 
