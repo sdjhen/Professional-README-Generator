@@ -1,37 +1,38 @@
-# Professional-README-Generator
+# Professional-README-GENERATOR
 
-## Description
-
-This project utilises Node JS & the Inquirer JS library to build a CLI application that enables developers to create a professional markdown README for their own projects.
-
+  ## Table of Contents
+  * [Description] (#Description)
+  *  [Installation] (#Installation)
+  * [Usage] (#usage)
+  * [License] (#License)
+  * [Credits] (#Credits)
+  * [Tests] (#Tests)
+  * [Questions] (#Questions)
+  
+ ## Description
+    This project utilises Node JS & the Inquirer JS library to build a CLI application that enables developers to create a professional markdown README for their own projects.
+  
 ## Installation
+  You will need Node JS installed and have inquirer JS listed as a dependency for the application to function.
 
-You will need Node JS installed and have inquirer JS listed as a dependency for the application to function.
+  ## Usage
+  Via npm please install inquirer JS using npm install inquirer command on the Terminal.
 
-## Usage
+  ## License
+  NONE
 
-Via npm please install inquirer JS using npm install inquirer command on the Terminal.
+  ## Credits
+  N/A
 
-## Liscense
+  ## Tests
+  N/A
 
-NONE
+  ## Questions
+  N/A
 
-## Credits
+  ## Github Username
+  @sdjhen
 
-N/A
-
-## Tests
-
-N/A
-
-## Questions
-
-N/A
-
-## Github Username
-
-@sdjhen
-
-## Email
-
-N/A
+  ## Email
+  N/A
+  
