@@ -1,19 +1,19 @@
-# Project-2030
+# Sample-Readme-project
 
   ## Table of Contents
-  * [Description] (#Description)
-  *  [Installation] (#Installation)
-  * [Usage] (#usage)
-  * [License] (#License)
-  * [Credits] (#Credits)
-  * [Tests] (#Tests)
-  * [Questions] (#Questions)
+  * [Description](#Description)
+  *  [Installation](#Installation)
+  * [Usage](#usage)
+  * [License](#License)
+  * [Credits](#Credits)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
   
  ## Description
-  This project aims to use current technology to build a futuristic model of the year 2030.
+  This project produces a simple, professional markdown file for developers.
   
 ## Installation
-  Please use Node npm i  to install the required packages.
+  Use npm to install inquirer js
 
   ## Usage
   N/A
@@ -25,10 +25,10 @@
   N/A
 
   ## Tests
-  No testing required.
+  N/A
 
   ## Questions
-  You can reach me for any additional questions via Github @sdjhen
+  Reach me for additional questions using Github.
   
 
   ## Github Username

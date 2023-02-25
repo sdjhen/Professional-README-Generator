@@ -3,13 +3,13 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Table of Contents
-  * [Description] (#Description)
-  *  [Installation] (#Installation)
-  * [Usage] (#usage)
-  * [License] (#License)
-  * [Credits] (#Credits)
-  * [Tests] (#Tests)
-  * [Questions] (#Questions)
+  * [Description](#Description)
+  *  [Installation](#Installation)
+  * [Usage](#usage)
+  * [License](#License)
+  * [Credits](#Credits)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
   
  ## Description
   ${data.Description}
@@ -31,6 +31,7 @@ function generateMarkdown(data) {
 
   ## Questions
   ${data.Questions}
+  
 
   ## Github Username
   ${data.Github}
