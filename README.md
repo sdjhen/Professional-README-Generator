@@ -7,8 +7,7 @@
 - [Usage](#usage)
 - [License](#License)
   - [Credits](#Credits)
-- [Tests](#Tests)
-  - [Questions](#Questions)
+
 
 ## Description
 
